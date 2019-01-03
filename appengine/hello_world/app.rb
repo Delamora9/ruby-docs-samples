@@ -16,6 +16,18 @@
 require "sinatra"
 
 get "/" do
-  get "index/index"
+  '<html>
+   <head>
+   <style>
+    h1 {
+      color: purple;
+    }
+   </style>
+   </head>
+   <body>
+   <h1>Welcome to Renters Compass!</h1>
+   </body>
+   </html>
+  '
 end
 # [END gae_flex_quickstart]
