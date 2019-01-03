@@ -35,7 +35,7 @@ get "/" do
    </textarea>
    <script>
    document.getElementById("infoButton").addEventListener("click", function(){
-    document.getElementById("infoArea").style.display = '';
+    document.getElementById("infoArea").style.display = "";
    }, false);
    </script>
    </body>
