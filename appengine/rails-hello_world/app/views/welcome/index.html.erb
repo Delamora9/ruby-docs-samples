@@ -19,6 +19,12 @@
    document.getElementById("infoButton").addEventListener("click", function(){
     document.getElementById("infoArea").style.display = "";
    }, false);
+   function setHeight(fieldId){
+    document.getElementById(fieldId).style.height = document.getElementById(fieldId).scrollHeight+'px';
+    }
+    setHeight('infoArea');
    </script>
+   <br><br>
+   <a href='/tools/index' alt='Tools'>Tools</a>
    </body>
    </html>
