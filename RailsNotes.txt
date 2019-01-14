@@ -1,0 +1,20 @@
+bin/rails server
+
+bin/rails generate controller Welcome index
+
+The controller, located at app/controllers/welcome_controller.rb and
+the view, located at app/views/welcome/index.html.erb.
+
+Open the app/views/welcome/index.html.erb file in your text editor.
+
+Here you can change the HTML
+
+To set the apps homepage open config/routes.rb
+
+Rails.application.routes.draw do
+  get 'welcome/index'
+  
+  root 'welcome#index' 
+end
+
+
